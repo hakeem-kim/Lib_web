@@ -20,7 +20,7 @@ addr varchar(30) NOT NULL,
 name varchar(15) NOT NULL, 
 gender varchar(15) NOT NULL, 
 tel varchar(15) NOT NULL, 
-code` varchar(5) NOT NULL DEFAULT 'U' ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+code varchar(5) NOT NULL DEFAULT 'U' ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
 CREATE TABLE book (
