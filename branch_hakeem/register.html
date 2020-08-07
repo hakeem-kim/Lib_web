@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    #content {
+      color: red;
+    }
+
+    body {
+      text-align: center;
+    }
+
+    body>h1 {
+      color: blue;
+    }
+  </style>
+
+  <title>도서관 관리 홈페이지</title>
+
+</head>
+
+<body>
+
+  <h1>Sign up</h1>
+
+  <form action="sign_up.php" method="post">
+
+    <!--
+    <div id="content">
+      <h3>User ID</h3>
+      <span><input type="text" name="user_id" size="15" /></span>
+    </div>
+  -->
+    <div id="content">
+      <h3>E-mail</h3>
+      <span><input type="email" name="email"></span>
+    </div>
+
+    <div id="content">
+      <h3>Password</h3>
+      <span><input type="password" name="pwd" size="18"></span>
+    </div>
+
+    <div>
+      <h3>Address</h3>
+      <span><input type="text" name="addr" size="30"></span>
+    </div>
+
+    <div>
+      <h3>Name</h3>
+      <span><input type="text" name="name"></span>
+    </div>
+
+    <div>
+      <h3>Gender</h3>
+      <span><input type="radio" name="gender" value="male">Male</span>
+      <span><input type="radio" name="gender" value="female">Female</span>
+    </div>
+
+    <div>
+      <h3>Phone number</h3>
+      <span><input type="text" name="tel"></span>
+    </div>
+
+    <div>
+      Submit <input type="submit" name="submit">
+    </div>
+
+  </form>
+
+</body>
+
+</html>
