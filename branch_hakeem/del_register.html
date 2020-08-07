@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <style>
+
+    #content
+    {
+      color:red;
+    }
+
+    body {
+      text-align: center;
+    }
+
+    body>h1 {
+      color: blue;
+    }
+
+  </style>
+
+  <title>도서관 관리 홈페이지</title>
+
+</head>
+
+<body>
+
+  <h1>회원 탈퇴</h1>
+
+  <form action="sign_del.php" method="post">
+
+    <div id="content">
+      <h3>User Email</h3>
+      <span><input type="text" name="email" size="15" /></span>
+    </div>
+
+    <div id="content">
+      <h3>Password</h3>
+      <span><input type="password" name="pwd" size="18"></span>
+    </div>
+
+    <div>
+      <h3>Name</h3>
+      <span><input type="text" name="name"></span>
+    </div>
+
+    <div>
+      <h3>Gender</h3>
+      <span><input type="radio" name="gender" value="male">Male</span>
+      <span><input type="radio" name="gender" value="female">Female</span>
+    </div>
+
+    <div>
+      Submit <input type="submit" name="submit" value="회원탈퇴">
+    </div>
+
+  </form>
+
+</body>
+
+</html>
