@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>도서관 관리 홈페이지</title>
+
+  <style>
+    table {
+      border: 1px solid black;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 5px;
+    }
+
+    body {
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1> 로그인 해주세요. </h1>
+
+  <table border="1">
+
+    <form action="sign_in.php" method="post">
+      <tr>
+        <td colspan=2>
+          <label for="id"> Email : </label>
+          <input type="text" name="email" size="15" /><br></td>
+      </tr>
+
+      <tr>
+        <td colspan=2>
+          <label for="pwd"> PW : </label>
+          <input type="password" name="pwd" size="15" /><br></td>
+      </tr>
+
+      <tr>
+        <td colspan=2><input type="submit" name="submit" value="로그인" /></td>
+      </tr>
+
+      <tr>
+        <td><input type="button" value="회원가입" onclick="location.href='register.html'" /></td>
+        <td><input type="button" value="회원탈퇴" onclick="location.href='del_register.html'" /></td>
+      </tr>
+
+
+
+
+    </form>
+  </table>
+
+
+</body>
+
+</html>
